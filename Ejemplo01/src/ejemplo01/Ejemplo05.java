@@ -28,5 +28,6 @@ public class Ejemplo05 {
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+        // La diferente que hace el \t es que hace que se lea como una tab mientras que el \n\t primero lee el \n como un salto de linea y la \t como un tab
     }
 }
