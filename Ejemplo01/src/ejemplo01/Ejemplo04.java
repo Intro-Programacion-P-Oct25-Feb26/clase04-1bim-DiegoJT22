@@ -10,6 +10,7 @@ package ejemplo01;
  * @author reroes
  */
 public class Ejemplo04 {
+
     public static void main(String[] args) {
         String nombreEstudiante = "René Rolando";
         String apellidoEstudiante = "Elizalde Solano";
@@ -18,5 +19,13 @@ public class Ejemplo04 {
         System.out.print(apellidoEstudiante + " ");
         System.out.print(nacimiento + " ");
         System.out.print(nombreEstudiante + " ");
+        
+        // Print se usa en la misma linea pero el println se salta a la siguiente linea de codigo
+
+        System.out.println("---------------------------------");
+        System.out.println(nombreEstudiante + " ");
+        System.out.println(apellidoEstudiante + " ");
+        System.out.println(nacimiento + " ");
+        System.out.println(nombreEstudiante + " ");
     }
 }
