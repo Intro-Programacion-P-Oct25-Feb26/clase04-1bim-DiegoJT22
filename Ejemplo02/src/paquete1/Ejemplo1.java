@@ -19,30 +19,33 @@ public class Ejemplo1 {
         // No olvidar que se puede importar archivos de java y que Scanner y Locale sirven para user el punto como decimal
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US); // para ingresar los decimales con 
-                                        // punto
-                                        // no con coma
+        // punto
+        // no con coma
         // declarar las variables
         String nombreAsignatura1;
         String nombreAsignatura2;
         double notaAsignatura1;
         double notaAsignatura2;
-        
+
         System.out.println("Ingrese nombre de asignatura 1");
-        nombreAsignatura1 = entrada.nextLine();// netLine me permite recibir una cadena
+        nombreAsignatura1 = entrada.nextLine();
+        /* netLine me permite 
+        recibir una cadena
+         */
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
         notaAsignatura2 = entrada.nextDouble();
-        
+
         System.out.printf("Asignatura 1: %s\nNota 1:%.2f\nAsignatura 2:%s\n"
                 + "Nota 2: %.2f\n",
                 nombreAsignatura1,
                 notaAsignatura1,
                 nombreAsignatura2,
                 notaAsignatura2);
-   
+
     }
     
 }
