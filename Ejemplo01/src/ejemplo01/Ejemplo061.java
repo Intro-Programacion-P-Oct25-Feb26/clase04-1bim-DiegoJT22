@@ -19,7 +19,7 @@ public class Ejemplo061 {
         String edadEstudiante = "18";
         String direccionEstudiante = "Nueva Graada";
         String universidadEstudiante = "UTPL";
-        String cicloEstudiante = "primer ciclo";
+        String cicloEstudiante = "Primer ciclo";
         String nombreAsignatura = "Introduccion a la programacion";
         String paraleloEstudiante = "A";
         
@@ -33,9 +33,14 @@ public class Ejemplo061 {
         // usamos %f para reemplazar los valore decimales
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
-        System.out.printf("Nombre:\n\t-%s\n Apellido:\n\t-%s\n Edad: \n\t-%s\n Direccion: \n\n\t-%s\n----------------------------\n Universidad: -%s\n Ciclo Carrera: -%s\n +Asignatura -%s\n Paralelo: \n\t-%s\n", nombreEstudiante, 
-                apellidoEstudiante,edadEstudiante, direccionEstudiante, universidadEstudiante, cicloEstudiante, nombreAsignatura, paraleloEstudiante);
-        
-        
+        System.out.printf("Nombre:\n-\t%s\n "
+                + "Apellido:\n-\t%s\n "
+                + "Edad: \n-\t%s\n "
+                + "Direccion: \n\n-\t%s\n----------------------------\n"
+                + "Universidad: -\t%s\n "
+                + "Ciclo Carrera: -\t%s\n "
+                + "Asignatura: -\t%s\n Paralelo: \n-\t%s\n", nombreEstudiante,
+                apellidoEstudiante, edadEstudiante, direccionEstudiante, universidadEstudiante, cicloEstudiante, nombreAsignatura, paraleloEstudiante);
+
     }
 }

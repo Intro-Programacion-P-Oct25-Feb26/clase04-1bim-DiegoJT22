@@ -16,6 +16,7 @@ public class Ejemplo1 {
 
     public static void main(String[] args) {
         // Ingreso de valores por teclado
+        // No olvidar que se puede importar archivos de java y que Scanner y Locale sirven para user el punto como decimal
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US); // para ingresar los decimales con 
                                         // punto
@@ -27,7 +28,7 @@ public class Ejemplo1 {
         double notaAsignatura2;
         
         System.out.println("Ingrese nombre de asignatura 1");
-        nombreAsignatura1 = entrada.nextLine();
+        nombreAsignatura1 = entrada.nextLine();// netLine me permite recibir una cadena
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble();
         System.out.println("Ingrese nombre de asignatura 2");
