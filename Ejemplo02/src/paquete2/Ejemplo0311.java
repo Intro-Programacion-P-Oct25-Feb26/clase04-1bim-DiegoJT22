@@ -21,6 +21,7 @@ public class Ejemplo0311 {
         String apellido;
         int nacimiento;
         int ciclo;
+        String direccion;
 
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
@@ -34,16 +35,25 @@ public class Ejemplo0311 {
 
         System.out.println("Ingrese su ciclo academico en numero");
         ciclo = entrada.nextInt();
+        
+        entrada.nextLine();
+        
+        System.out.println("Ingrese su direccion");
+
+        direccion = entrada.nextLine();
+        
 
         System.out.printf("Datos del estudiante\n"
                 + "Nombre: %s\n"
                 + "Apellido: %s\n"
                 + "Año de nacimiento: %d\n"
-                + "Ciclo Academico: %d\n",
+                + "Ciclo Academico: %d\n"
+                + "Direccion: %s\n",
                 nombre,
                 apellido,
                 nacimiento,
-                ciclo);
+                ciclo, 
+                direccion);
         //Cambiamos el ultimo %s por %d ya que la variable es entera
     }
 }
